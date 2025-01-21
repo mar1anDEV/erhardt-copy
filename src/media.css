@@ -1,0 +1,78 @@
+@media only screen and (min-width: 1400px) {
+   .container-top-header,
+   .container-middle-nav,
+   .container-sub-nav,
+   .featurebar__content{
+     padding: 0 120px;
+   }
+   
+  }
+
+  @media only screen and (max-width: 1300px) {
+   .container-top-header,
+   .container-middle-nav,
+   .container-sub-nav,
+   .featurebar__content{
+      width: 100% !important;
+      padding: 0 10px;
+   }
+   
+  }
+
+
+  @media only screen and (max-width: 1280px) {
+   .sub-nav,
+   .branch-text,
+   .searchBox{
+      display: none!important;
+   }
+   .dealzone-holder{
+      margin: auto;
+   }
+   .sm-devices-searchBox,
+   .sm-searchBox,
+   .nav-btn-open-close{
+      display: block !important;
+   }
+   .sm-searchBox{
+      padding: 0px 5px;
+   }
+   .header-container-branches{
+      flex: 0.3;
+   } 
+  }
+
+  @media only screen and (max-width: 992px) {
+   .top-header{
+      display: none;
+   }
+   
+   
+  }
+
+  @media only screen and (max-width: 850px) {
+   .bewertung{
+      display: none;
+   }
+   
+   
+  }
+  @media only screen and (max-width: 568px) {
+   .anrufen-txt{
+      display: none;
+   }
+   
+   
+  }
+
+  @media only screen and (max-width: 767px) {
+      .dealzone{
+         display: none;
+      }
+      .header-container-branches{
+         flex: 1 !important;
+      }
+      .navbar-brand{
+         max-width: 160px; 
+     }
+  }
